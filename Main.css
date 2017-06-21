@@ -1,0 +1,234 @@
+* {
+	border-style: none;
+	border-width: 1px;
+	border-style: none;
+	image-rendering: optimizeSpeed;
+}
+
+body {
+	margin: 0px;
+	background-color: #F0EFF0;
+	background-image: url(New5.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: right 0px top -142px;
+	image-rendering: optimizeSpeed;
+}
+
+header {
+	background-color: #000;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	box-shadow: 0px 0px 20px 5px #333;
+	opacity: .5;
+	transition-duration: 300ms;
+	border-style: solid;
+	border-width: 10px;
+}
+
+header:hover {
+    opacity: .8;
+    transition: all 500ms;
+    
+}
+
+.nav {
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+}
+
+.nav ul {
+    padding: 0px;
+}
+
+.nav ul li {
+	margin: 5px 40px;
+	padding: 0px;
+	display: inline-block;
+	color: white;
+}
+
+.nav ul li a {
+	color: white;
+	margin: 0px;
+	padding: 0px;
+	font-size: 25px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	text-decoration: none;
+	text-shadow: 0px 0px 4px rgba(0, 0, 0, .75);
+	opacity: .75;
+}
+
+.nav ul li a:hover {
+	opacity: 1;
+	transition-duration: 300ms;
+}
+
+.nav ul li a:active {
+	color: Black;
+}
+
+h1 {
+	text-align: center;
+	color: White;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	text-shadow: 0px 0px 5px rgba(0, 0, 0, .65);
+	margin-top: 50px;
+}
+
+.RecentUploads {
+	background-color: rgba(34, 34, 34, .4);
+	text-align: center;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+.RecentUploads .Images {
+	text-align: center;
+	width: 45%;
+	margin: 0 auto;
+}
+
+.RecentUploads h1 {
+	color: white;
+	margin: 0px;
+	padding: 0px;
+	padding-bottom: 5px;
+	padding-top: 10px;
+}
+
+.RecentUploads img{
+	display: inline;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    image-rendering: optimizeSpeed;
+}
+
+.RecentUploads .Portrait img{
+	float: left;
+	width: 133px;
+	height: 200px;
+}
+
+.RecentUploads .Landscape img{
+	float: left;
+	width: 200px;
+	height: 133px;
+	padding-top: 34px;
+}
+
+.News {
+	background-color: rgba(254, 254, 254, .5);
+	width: 75%;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0px;
+}
+
+.News h2 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	font-size: 30px;
+	color: White;
+	text-shadow: 0px 0px 5px rgba(0, 0, 0, .65);
+	margin-top: 25px;
+	margin-bottom: 10px;
+	/
+	padding: 0px;
+}
+
+.News p {
+	font-family: 'PT Serif', serif;
+	color: White;
+	text-shadow: 0px 0px 5px rgba(0, 0, 0, .65);
+	margin: 0px;
+	padding: 0px;
+}
+
+.News .White {
+	padding-bottom: 10px;
+	padding-top: 0px;
+	margin: 0px;
+}
+
+.News .Grey {
+	background-color: rgba(0, 0, 0, .25);
+	padding: 10px;
+	margin: 0px;
+}
+
+.Galleries {
+  display: inline-block;
+  position: absolute;
+  margin: 0px;
+  margin-top: 25px;
+}
+
+.Gallery.Landscapes {
+	opacity: .85;
+	box-shadow: 0px 0px 10px black;
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	top: 0px;
+	left: 100px;
+	margin: 0px;
+	transition-duration: 300ms;
+}
+
+.Gallery.Landscapes:hover {
+	opacity: 1;
+	transform: scale(1.05);
+	box-shadow: 1px 0px 20px black;
+	transition-duration: 300ms;
+}
+
+.Gallery.Portraits {
+	opacity: .85;
+	box-shadow: 0px 0px 10px black;
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	top: 0px;
+	left: 500px;
+	margin: 0px;
+	transition-duration: 300ms;
+}
+
+.Gallery.Portraits:hover {
+	opacity: 1;
+	transform: scale(1.05);
+	box-shadow: 1px 0px 20px black;
+	transition-duration: 300ms;
+}
+
+.Galleries h3 {
+    text-align: center;
+	color: White;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	text-shadow: 0px 0px 5px rgba(0, 0, 0, .65);
+	font-size: 40px;
+	z-index: 100;
+	position: absolute;
+}
+
+#PortraitsText {
+	left: 75px;
+	top: 75px;
+}
+
+#LandscapeText {
+	left: 50px;
+	top: 75px;
+}
